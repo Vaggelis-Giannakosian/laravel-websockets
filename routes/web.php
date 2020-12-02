@@ -18,6 +18,11 @@ Auth::routes();
 
 Route::get('/home', [App\Http\Controllers\HomeController::class, 'index'])->name('home');
 
+Route::get('/stats',function(){
+   return ['lessons' => 400, 'series' => 220];
+});
+
 Route::get('/{any}', function () {
     return view('app');
 })->where('any','.*');
+

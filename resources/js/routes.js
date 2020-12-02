@@ -6,6 +6,7 @@ import Mascot from "./components/Mascot";
 import Illustrations from "./components/Illustrations";
 import Wallpapers from "./components/Wallpapers";
 import NotFound from "./components/NotFound";
+import Stats from "./components/Stats";
 
 
 let LoadersAndAnimations = () => import ( /*webpackChunkName: "loaders" */"./components/LoadersAndAnimations");
@@ -57,6 +58,10 @@ export default {
         {
             path: '/colors',
             component: Colors,
+        },
+        {
+            path: '/site-stats',
+            component: Stats,
         }
     ],
 

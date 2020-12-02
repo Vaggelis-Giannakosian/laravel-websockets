@@ -27,7 +27,7 @@
 
             <aside class="w-1/5 pt-8">
 
-                <section class="mb-10">
+                <section class="mb-5">
                     <h5 class="uppercase font-bold mb-5 text-base">The Brand</h5>
                     <ul>
                         <li class="text-sm pb-4">
@@ -45,7 +45,7 @@
                     </ul>
                 </section>
 
-                <section>
+                <section class="mb-5">
                     <h5 class="uppercase font-bold mb-5 text-base">Doodles</h5>
                     <ul>
                         <li class="text-sm pb-4">
@@ -60,6 +60,15 @@
                         </li>
                         <li class="text-sm pb-4">
                             <router-link class="text-black" to="/wallpapers">Wallpapers</router-link>
+                        </li>
+                    </ul>
+                </section>
+
+                <section>
+                    <h5 class="uppercase font-bold mb-5 text-base">Stats</h5>
+                    <ul>
+                        <li class="text-sm pb-4">
+                            <router-link class="text-black" to="/site-stats">Site Stats</router-link>
                         </li>
                     </ul>
                 </section>
