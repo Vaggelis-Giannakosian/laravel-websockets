@@ -19,8 +19,8 @@
 
     <div class="container mx-auto">
 
-        <header class="py-6">
-            <h1 class="font-bold text-xl"> Vue SPA </h1>
+        <header class="py-6 mb-8">
+            <h1 class="font-bold text-2xl"> Vue SPA </h1>
         </header>
 
         <main class="flex">
@@ -28,25 +28,40 @@
             <aside class="w-1/5">
 
                 <section class="mb-8">
-                    <h5 class="uppercase font-bold">The Brand</h5>
+                    <h5 class="uppercase font-bold mb-3">The Brand</h5>
                     <ul>
-                        <li>
-                            <router-link to="/">Home</router-link>
+                        <li class="text-sm pb-4">
+                            <router-link class="text-black" to="/">Logo</router-link>
                         </li>
-                        <li>
-                            <router-link :to="{ name : 'about'}">About</router-link>
+                        <li class="text-sm pb-4">
+                            <router-link class="text-black" :to="{ name : 'about'}">Logo Symbol</router-link>
+                        </li>
+                        <li class="text-sm pb-4">
+                            <router-link class="text-black" :to="{ name : 'about'}">Colors</router-link>
+                        </li>
+                        <li class="text-sm pb-4">
+                            <router-link class="text-black" :to="{ name : 'about'}">Typography</router-link>
                         </li>
                     </ul>
                 </section>
 
                 <section>
-                    <h5 class="uppercase font-bold">Doodles</h5>
+                    <h5 class="uppercase font-bold mb-3">Doodles</h5>
                     <ul>
-                        <li>
-                            <router-link to="/">Home</router-link>
+                        <li class="text-sm pb-4">
+                            <router-link class="text-black" to="/">Mascot</router-link>
                         </li>
-                        <li>
-                            <router-link :to="{ name : 'about'}">About</router-link>
+                        <li class="text-sm pb-4">
+                            <router-link class="text-black" :to="{ name : 'about'}">Illustrations</router-link>
+                        </li>
+                        <li class="text-sm pb-4">
+                            <router-link class="text-black" to="/">Loaders</router-link>
+                        </li>
+                        <li class="text-sm pb-4">
+                            <router-link class="text-black" :to="{ name : 'about'}">Animations</router-link>
+                        </li>
+                        <li class="text-sm pb-4">
+                            <router-link class="text-black" :to="{ name : 'about'}">Wallpapers</router-link>
                         </li>
                     </ul>
                 </section>

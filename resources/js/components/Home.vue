@@ -1,5 +1,10 @@
 <template>
-        <p>Home</p>
+    <div>
+        <h1 class="text-3xl text-grey-darkest leading-none">Full logo</h1>
+    </div>
+
+
+
 </template>
 
 <script>
